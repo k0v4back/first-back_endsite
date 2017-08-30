@@ -90,7 +90,7 @@
   </div>
 
   <!--КОнец шапки-->
-  <div class="parallax-window" style="height: 700px;" data-speed="0.1" data-parallax="scroll" data-image-src="views/img/100.jpg">
+  <div class="parallax-window" style="height: 700px;" data-speed="0.1" data-parallax="scroll" data-image-src="views/img/1.jpg">
   <div>
     <div class="container wow fadeInUp">
       <div class="row centered">
