@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+body {
+	background-color: #EDEDED;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 16px;
+	color: #555;
+	
+	-webkit-font-smoothing: anialiased;
+	-webkit-overflow-scrolling: touch;
+
+	
+	margin-top:70px;
+	
+
+	filter: alpha(Opacity=70); /* Прозрачность в IE */
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Raleway";
+	font-weight: 300;
+	color: #333;
+}
+
+
+p{
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+
+
+.centered{
+	text-align: center;
+}
+
+
+/*Стили для ссылок*/
+a{ 
+	color: #1F1E1D;
+}
+
+
+/*Стили при наведении на ссылку и фокусировки на ней */
+a:hover, a:focus{
+	color: #3F3E3D;
+	text-decoration: none; /*на ссылка не будет никаких подчёркиваний*/
+	outline: 0;
+}
+
+
+/*Стили для горизонтальных линий*/
+hr{
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 0px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+
+
+
+/*Стили для навигационного меню*/
+.navbar{
+	font-weight: 800;
+	font-size: 14px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: blue;
+}
+
+/*стили для меню в шапки сайта*/
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+
+
+/*стили для меню в шапки сайта при наведении*/
+.navbar-inverse .navbar-nav > li > a:hover{
+	color: #FFDD00;
+}
+
+
+.navbar-inverse{
+	background-color: #2B2A29;
+}
+
+
+
+/*СТили для нашего лого*/
+.navbar-inverse .navbar-brand{
+	font-weight: bolder;
+	font-size: 18px;
+	letter-spacing: 1px;
+	color: white;
+}
+
+/*СТили для нашего лого при наведении*/
+.navbar-inverse .navbar-brand:hover{
+	color: #FFDD00;
+}
+
+
+
+/*Стили для блока который идёт сразу после шапки*/
+#headerwrap{
+	/*background: url(../img/10.jpg) no-repeat center top; Указали путь до картинки*/
+	margin-top: -10px;
+	padding-top: 20px;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 500px;
+	width: 100%;
+	
+	background-size: 100%;
+	
+	 /*Для того чтобы на всех разрешениях экрана картинка хорошо выглядела*/
+	webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+
+
+
+
+/*Стили для основного заголовка который расположен на картинке*/
+#headerwrap h1{
+	margin-top: 100px;
+	color: white;
+	font-size: 70px;
+	font-weight: 300;
+	letter-spacing: 3px;
+}
+
+#headerwrap h2{
+	color: white;
+	font-size: 40px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+
+/*Стили для нашего блока с краткой инфломацией*/
+.w{
+	padding-top: 35px;
+}
+
+/*Стили для заголовкав нашего блока под картинкой */
+.w h4{
+	font-size: 25px;
+}
+
+
+
+/*СТили для блока с последними работами*/
+#dg{
+	background: #e0e0e0;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+#dg h4{
+	font-size: 30px;
+}
+
+
+/* Эффект вращения при наведения */
+.tilt{/*Берём класс tilt и вращение назад будет длится 0.5 сек*/
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.tilt:hover{
+	-webkit-transform: rotate(-10deg);/*при наведении вращаем на -10 градусов*/
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+
+.wb{
+	padding-top: 35px;
+	margin-bottom: 0;
+}
+
+.wb h4{
+	font-size: 30px;
+}
+
+
+#lg{
+	background: #ebebeb;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+
+}
+
+#lg h4{
+	font-size: 30px;
+}
+
+
+/*Стили для нижнего крассного блока*/
+#r{
+	background: #ff7878;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+#r h4{
+	color: white;
+	font-size: 45px;
+}
+
+#r p {
+	color: white;
+}
+
+
+/*Стили для футера*/
+#f{
+	background: #2B2A29;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	
+	margin-top: 50px;
+	
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+/*Цвет и остальные стили для наших иконок*/
+#f i {
+	color: #bdbdbd;
+	font-size: 20px;
+	margin-right: 20px;
+}
+/*Стили при наведении на ok vk*/
+#odnoklassniki:hover{
+	color: #EE8208;
+}
+#vk:hover{
+	color:#436894;
+}
+
+
+/*Стили для блока с каруселью*/
+#carusel_stule{
+	background: #EBEBEB;
+	max-height: 590px;
+	width: 100%;
+
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+
+}
+
+#headers{
+	font-size: 23px;
+}
+
+
+
+/*Стили для карусели на главной странице*/
+#carusel{
+	max-height: 400px;
+	max-width: 770px;
+	margin: auto;
+}
+
+
+
+/*Настройка блога*/
+.blog{
+	color:black;
+}
+
+
+
+/*Стили для блока с новостью и с картинкой*/
+.article{
+	background-color: #FFFFFF;
+	padding: 10px;
+	overflow:hidden;
+}
+/*Стили для картинки новости*/
+.article__image{
+	float:left;
+	width: 100px;
+	height: 100px;
+	margin-right:15px;
+}
+
+/*Стили для одной новости*/
+#one_news{
+	background-color: #FFFFFF;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 10px;
+	overflow:hidden;
+}
+
+/*Стили для одной новости (Для ссылки просмотров)*/
+#one_news_div{
+	/*float:right;*/
+
+	
+	padding-bottom: 15px;
+}
+
+/*Стили для текста статьи*/
+.full-text{
+	font-size: 18px;
+}
+
+
+
+/*Стили для главной фото в статьи*/
+#img_art_one{
+	max-width: 100%;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    padding-top: 7px;
+    padding-bottom: 25px;
+}
+
+
+/*Стили для заголовка статьи*/
+#zagolovok_article{
+	padding-top: -20px;
+	font-size: 24px;
+}
+
+
+/*Стили для ссылок при наведении и просто (тут каьегории т тд)*/
+a{
+	color:black;
+}
+
+a:hover{
+	color:#505050;
+}
+
+/*Ссылка для всех статей*/
+#all_articles{
+	float: right;
+
+}
+
+
+.video{
+	padding-bottom: 50px;
+}
+
+
+
+
+
