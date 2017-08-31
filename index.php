@@ -32,7 +32,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/">LOGOPED39.COM</a><!--заголовок сайта-->
+        <a class="navbar-brand" href="/"></a><!--заголовок сайта-->
       </div>
 
       
